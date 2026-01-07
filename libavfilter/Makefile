@@ -409,6 +409,7 @@ OBJS-$(CONFIG_UNPREMULTIPLY_FILTER)          += vf_premultiply.o framesync.o
 OBJS-$(CONFIG_UNSHARP_FILTER)                += vf_unsharp.o
 OBJS-$(CONFIG_UNSHARP_OPENCL_FILTER)         += vf_unsharp_opencl.o opencl.o \
                                                 opencl/unsharp.o
+OBJS-$(CONFIG_IMGENHANCE_FILTER)             += vf_imgenhance.o
 OBJS-$(CONFIG_USPP_FILTER)                   += vf_uspp.o
 OBJS-$(CONFIG_VAGUEDENOISER_FILTER)          += vf_vaguedenoiser.o
 OBJS-$(CONFIG_VECTORSCOPE_FILTER)            += vf_vectorscope.o

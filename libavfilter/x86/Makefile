@@ -66,3 +66,4 @@ X86ASM-OBJS-$(CONFIG_TINTERLACE_FILTER)      += x86/vf_interlace.o
 X86ASM-OBJS-$(CONFIG_VOLUME_FILTER)          += x86/af_volume.o
 X86ASM-OBJS-$(CONFIG_W3FDIF_FILTER)          += x86/vf_w3fdif.o
 X86ASM-OBJS-$(CONFIG_YADIF_FILTER)           += x86/vf_yadif.o x86/yadif-16.o x86/yadif-10.o
+X86ASM-OBJS-$(CONFIG_IMGENHANCE_FILTER)      += x86/vf_imgenhance.o
