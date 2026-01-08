@@ -390,6 +390,7 @@ extern AVFilter ff_vf_unsharp;
 extern AVFilter ff_vf_unsharp_opencl;
 extern AVFilter ff_vf_unsharp_cuda;
 extern AVFilter ff_vf_guided_cuda;
+extern AVFilter ff_vf_minterpolate_cuda;
 extern AVFilter ff_vf_imgenhance;
 extern AVFilter ff_vf_uspp;
 extern AVFilter ff_vf_vaguedenoiser;

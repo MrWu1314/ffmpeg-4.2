@@ -411,6 +411,7 @@ OBJS-$(CONFIG_UNSHARP_OPENCL_FILTER)         += vf_unsharp_opencl.o opencl.o \
                                                 opencl/unsharp.o
 OBJS-$(CONFIG_UNSHARP_CUDA_FILTER)           += vf_unsharp_cuda.o vf_unsharp_cuda.ptx.o
 OBJS-$(CONFIG_GUIDED_CUDA_FILTER)            += vf_guided_cuda.o vf_guided_cuda.ptx.o
+OBJS-$(CONFIG_MINTERPOLATE_CUDA_FILTER)      += vf_minterpolate_cuda.o vf_minterpolate_cuda.ptx.o
 OBJS-$(CONFIG_IMGENHANCE_FILTER)             += vf_imgenhance.o
 OBJS-$(CONFIG_USPP_FILTER)                   += vf_uspp.o
 OBJS-$(CONFIG_VAGUEDENOISER_FILTER)          += vf_vaguedenoiser.o
