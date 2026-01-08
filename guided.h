@@ -1,5 +1,5 @@
 /*
- * Image enhancement filter header
+ * guided filter header
  *
  * This file is part of FFmpeg.
  *
@@ -49,3 +49,4 @@ typedef struct QNGuidedContext {
 } QNGuidedContext;
 
 #endif /* AVFILTER_UNSHARP_H */
+
